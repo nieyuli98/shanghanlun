@@ -1,0 +1,33 @@
+项目初始化：
+git init
+添加文件并提交：
+git add .
+git commit -m "版本信息"
+
+添加远程仓库：
+git remote add origin 远程仓库地址（示例https://github.com/nieyuli98/note_nihaixia.git
+）
+
+
+# 查看当前远程仓库
+git remote -v
+
+# 修改远程仓库地址
+git remote set-url origin https://github.com/nieyuli98/note_nihaixia.git
+
+# 添加新的远程仓库（如果需要）
+git remote add origin https://github.com/nieyuli98/note_nihaixia.git
+
+# 验证远程仓库地址
+git remote -v
+
+
+第一次推送：
+git remote add origin https://github.com/nieyuli98/shanghanlun.git
+git branch -M main
+git push -u origin main
+
+
+1.提交全部文件到缓存区：git add *
+2.提交文件到本地仓库：git commit -m "更新日志、说明"
+3.推送的远程仓库：git push
